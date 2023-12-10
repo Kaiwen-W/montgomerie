@@ -45,7 +45,7 @@ export default function ImageUploader() {
       {!uploading && (
         <>
           <label className="btn">
-            📸 Upload Img
+            📸 Upload Image
             <input type="file" onChange={uploadFile} accept="image/x-png,image/gif,image/jpeg" />
           </label>
         </>
